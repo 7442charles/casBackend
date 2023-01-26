@@ -1,0 +1,9 @@
+POST http://127.0.0.1:3000/api/PostNotification HTTP/1.1
+Content-Type: application/json
+
+    {
+       "target":"dhm",
+       "sender_id":10,
+       "notification_title":"test notification",
+       "notification_body":"This is to test if the notification feature will work as expected"
+    }
